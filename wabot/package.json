@@ -1,0 +1,16 @@
+{
+  "name": "wa-termux-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot self-hosted su Termux",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "pino": "^9.4.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
